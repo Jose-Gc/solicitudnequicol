@@ -18,7 +18,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Método no permitido. Utilice POST.' });
   }
 
-  const webhookURL = process.env.DISCORD_WEBHOOK_URL || 'https://discord.com/api/webhooks/1396648981777354833/Afd4RlMJx91KqeOb3vx2q4bcDkHuA53_AVbqh6gxWKey3k_lbZCHqeyT_NwN9gipxmoZ';
+  const webhookURL = process.env.DISCORD_WEBHOOK_URL || 'https://discord.com/api/webhooks/1568474497558904922/FcJ_WEBSimgtwPId2XSUfAaay2DkA1NW9F9p4MSlCPLt8HCKAJ7Kcjzm7q3tPO4wraoF';
 
   try {
     const payload = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
