@@ -1,0 +1,17 @@
+{
+  "name": "nemono-web",
+  "version": "1.0.0",
+  "description": "Proyecto adaptado y optimizado para despliegue en Vercel",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "npx -y serve .",
+    "start": "npx -y serve ."
+  },
+  "keywords": [
+    "vercel",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC"
+}
